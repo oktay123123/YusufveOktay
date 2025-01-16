@@ -12,6 +12,34 @@ local Window = Library.CreateLib("Oktay ve Yusuf Mükemmel Hile", "DarkTheme")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/Otomatik"))()
     end)
 
-    MainSection:NewButton("Hız Hilesi", "W addrian_dacap", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GicuDragan/Speed-Bypass/main/Luci.lua"))()
+    MainSection:NewButton("Hız 10000 (riskli)", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz10000.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 5000 (riskli)", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz5000.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 2000 (riskli)", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz2000.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 1000 (riskli)", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz1000.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 500", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz500.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 250", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz250.txt"))()
+    end)
+
+    MainSection:NewButton("Hız 100", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz100.txt"))()
+    end)
+
+    MainSection:NewButton("50", "W addrian_dacap", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz50.txt"))()
     end)
