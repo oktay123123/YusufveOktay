@@ -1,7 +1,7 @@
 
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlifAnanta/LiftingSimulator/main/LUA"))()
 
-local MainUI = UILibrary.Load("Oktay ve Yusuf Mükemmel Hile")
+local MainUI = UILibrary.Load("Türk Hile Mükemmel Hile")
 local FirstPage = MainUI.AddPage("Ana Menü")
 
 FirstPage.AddToggle("Otomatik Kas Yapma", false, function(Value)
