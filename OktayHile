@@ -12,6 +12,13 @@ local Window = Library.CreateLib("Oktay ve Yusuf Mükemmel Hile", "DarkTheme")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/Otomatik"))()
     end)
 
+    local Main = Window:NewTab("Hızlar")
+    local MainSection = Main:NewSection("Hızlar")
+
+    MainSection:NewButton("Onur Oktay Yapmıştır", "W addrian_dacap", function()
+        loadstring(game:HttpGet(""))()
+    end)
+
     MainSection:NewButton("Hız 10000 (riskli)", "W addrian_dacap", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/hiz10000.txt"))()
     end)
