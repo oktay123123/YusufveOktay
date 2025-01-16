@@ -11,9 +11,9 @@ local Window = Library.CreateLib("Oktay ve Yusuf Mükemmel Hile", "DarkTheme")
     MainSection:NewButton("Otomatik Araçlar", "W addrian_dacap", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/Otomatik"))()
     end)
-
-    local Main = Window:NewTab("Hızlar")
-    local MainSection = Main:NewSection("Hızlar")
+    -- HIZLAR
+    local Hiz = Window:NewTab("Hızlar")
+    local HizSection = Main:NewSection("Hızlar")
 
     MainSection:NewButton("Onur Oktay Yapmıştır", "W addrian_dacap", function()
         loadstring(game:HttpGet(""))()
