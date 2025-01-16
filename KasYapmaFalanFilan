@@ -26,7 +26,7 @@ end)
 FirstPage.AddButton("Satın Alma Menüsü", function()
     game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
-local TwoPage = MainUI.AddPage("Credit")
-TwoPage.AddButton("Alif Ananta", function()
+local TwoPage = MainUI.AddPage("Hileyi Yapan")
+TwoPage.AddButton("Onur Oktay", function()
  game:GetService("").LocalPlayer.PlayerGui[""][""].Visible = true
 end)
