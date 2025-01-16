@@ -1,17 +1,1 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Oktay ve Yusuf Mükemmel Hile", "DarkTheme")
-    -- MAIN
-    local Main = Window:NewTab("Ana Menü")
-    local MainSection = Main:NewSection("Tuşlar")
-
-    MainSection:NewButton("Onur Oktay Yapmıştır", "W addrian_dacap", function()
-        loadstring(game:HttpGet(""))()
-    end)
-
-    MainSection:NewButton("Otomatik Araçlar", "W addrian_dacap", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/Otomatik"))()
-    end)
-
-    MainSection:NewButton("Hız Hilesi", "W addrian_dacap", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GicuDragan/Speed-Bypass/main/Luci.lua"))()
-    end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/OktayHile"))()
