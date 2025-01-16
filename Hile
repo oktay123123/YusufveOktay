@@ -9,7 +9,7 @@ local Window = Library.CreateLib("Oktay ve Yusuf Mükemmel Hile", "DarkTheme")
     end)
 
     MainSection:NewButton("Otomatik Araçlar", "W addrian_dacap", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/KasYapmaFalanFilan"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oktay123123/YusufveOktay/refs/heads/main/Otomatik"))()
     end)
 
     MainSection:NewButton("Hız Hilesi", "W addrian_dacap", function()
