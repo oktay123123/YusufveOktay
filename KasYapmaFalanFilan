@@ -1,0 +1,32 @@
+
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AlifAnanta/LiftingSimulator/main/LUA"))()
+
+local MainUI = UILibrary.Load("Oktay ve Yusuf Muq Hile")
+local FirstPage = MainUI.AddPage("Ana Menü")
+
+FirstPage.AddToggle("Otomatik Kas Yapma", false, function(Value)
+toggle = Value
+while toggle do wait()
+local ohTable1 = {
+	[1] = "GainMuscle"
+}
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+    end
+end)
+FirstPage.AddToggle("Otomatik Satma", false, function(Value)
+    tog = Value
+   while tog do wait()
+local ohTable1 = {
+	[1] = "SellMuscle"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(ohTable1)
+    end
+end)
+FirstPage.AddButton("Satın Alma Menüsü", function()
+    game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
+end)
+local TwoPage = MainUI.AddPage("Credit")
+TwoPage.AddButton("Alif Ananta", function()
+ game:GetService("").LocalPlayer.PlayerGui[""][""].Visible = true
+end)
